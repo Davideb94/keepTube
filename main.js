@@ -1,8 +1,11 @@
-function loadPanel(){
-	chrome.windows.create({ url: 'https://mobile.twitter.com/', type: 'panel' });
+console.log("Yahoooooooga");
+function loadPanel( videoUrl ){
+	console.dir(videoUrl);
+	// chrome.windows.create({ url: 'player.html?url='+videoUrl, type: 'panel' });
+	chrome.windows.create({ url: 'player.html?url='+videoUrl });
 }	
 chrome.extension.onRequest.addListener(
     function(request, sender, sendResponse){
-        if(request.msg == "loadPanel") loadPanel();
+        loadPanel(request.msg);
     }
 );
