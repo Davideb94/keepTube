@@ -1,2 +1,3 @@
 var main = document.getElementById("main");
-main.innerHTML= document.URL.split("=")[1] ;
+var videoSource = document.URL.split("=")[1];
+main.innerHTML= "<iframe id='ytplayer' type='text/html' width='640' height='390' src='http://www.youtube.com/embed/"+ videoSource +"?autoplay=1' frameborder='0'/>";
