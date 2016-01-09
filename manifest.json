@@ -9,5 +9,9 @@
     "activeTab",
     "https://ajax.googleapis.com/",
     "tabs"
-  ]
+  ],
+  "background": {
+    "persistent": true,
+    "scripts": ["main.js"]
+  },
 }
