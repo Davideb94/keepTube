@@ -12,15 +12,15 @@
   ],
   "content_scripts": [ {
     "js": [ 
-      "jquery-2.2.0.min.js", 
-      "lib.js" ],
+      "youtube/jquery-2.2.0.min.js", 
+      "youtube/lib.js" ],
     "matches": [
       "http://youtube.com/*",
       "https://youtube.com/*", 
       "http://www.youtube.com/*", 
       "https://www.youtube.com/*"
       ],
-    "css": ["style.css"] 
+    "css": ["youtube/style.css"] 
   }],
   "background": {
     "persistent": true,
