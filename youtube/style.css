@@ -2,3 +2,33 @@
 	font-size: 15px;
 	font-weight: bold;
 }
+.keepTubeEmbedded #body-container,
+.keepTubeEmbedded #content-container{
+	padding: 0px;
+	background: black;
+}
+.keepTubeEmbedded #placeholder-player{
+	margin: 0px;
+}
+.keepTubeEmbedded .player-width{
+	margin: 0;
+	left: 0;
+	width: 100%;
+}
+.keepTubeEmbedded .ytp-chrome-bottom{
+	width: 100% !important;
+}
+.keepTubeEmbedded video{
+	width: 100% !important;
+}
+.keepTubeEmbedded #masthead-positioner,
+.keepTubeEmbedded #action-panel-details,
+.keepTubeEmbedded #watch7-sidebar-contents,
+.keepTubeEmbedded #footer-container,
+.keepTubeEmbedded #keep-button,
+.keepTubeEmbedded #watch-discussion,
+.keepTubeEmbedded #masthead-positioner-height-offset,
+.keepTubeEmbedded #watch7-container,
+.keepTubeEmbedded #watch-header {
+	display: none;
+}
