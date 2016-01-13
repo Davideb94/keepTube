@@ -1,26 +1,19 @@
-.ytp-keep-button{
-	font-size: 15px;
-	font-weight: bold;
-}
+.ytp-keep-button {
+  font-size: 15px;
+  font-weight: bold; }
+
 .keepTubeEmbedded #body-container,
-.keepTubeEmbedded #content-container{
-	padding: 0px;
-	background: black;
-}
-.keepTubeEmbedded #placeholder-player{
-	margin: 0px;
-}
-.keepTubeEmbedded .player-width{
-	margin: 0;
-	left: 0;
-	width: 100%;
-}
-.keepTubeEmbedded .ytp-chrome-bottom{
-	width: 100% !important;
-}
-.keepTubeEmbedded video{
-	width: 100% !important;
-}
+.keepTubeEmbedded #content-container {
+  padding: 0px;
+  background: black; }
+.keepTubeEmbedded #placeholder-player {
+  margin: 0px; }
+.keepTubeEmbedded #page.watch .content-alignment {
+  min-width: 0 !important; }
+.keepTubeEmbedded .ytp-chrome-bottom, .keepTubeEmbedded video, .keepTubeEmbedded .player-width {
+  width: 100% !important;
+  left: 0 !important;
+  margin: 0 !important; }
 .keepTubeEmbedded #masthead-positioner,
 .keepTubeEmbedded #action-panel-details,
 .keepTubeEmbedded #watch7-sidebar-contents,
@@ -30,5 +23,6 @@
 .keepTubeEmbedded #masthead-positioner-height-offset,
 .keepTubeEmbedded #watch7-container,
 .keepTubeEmbedded #watch-header {
-	display: none;
-}
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */

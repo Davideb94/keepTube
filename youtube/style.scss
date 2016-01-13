@@ -1,0 +1,39 @@
+
+.ytp-keep-button{
+	font-size: 15px;
+	font-weight: bold;
+}
+.keepTubeEmbedded {
+
+	#body-container,
+	#content-container{
+		padding: 0px;
+		background: black;
+	}
+
+	#placeholder-player{
+		margin: 0px;
+	}
+	#page.watch .content-alignment{
+		min-width: 0 !important;
+	}
+
+	.ytp-chrome-bottom, video, .player-width{
+		width: 100% !important;
+		left: 0 !important;
+		margin: 0 !important;
+
+	}
+
+	#masthead-positioner,
+	#action-panel-details,
+	#watch7-sidebar-contents,
+	#footer-container,
+	#keep-button,
+	#watch-discussion,
+	#masthead-positioner-height-offset,
+	#watch7-container,
+	#watch-header {
+		display: none;
+	}
+}
