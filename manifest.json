@@ -30,9 +30,11 @@
       "http://www.youtube.com/*", 
       "https://www.youtube.com/*"
       ]
+
   }],
   "background": {
     "persistent": true,
     "scripts": ["main.js"]
-  }
+  },
+  "web_accessible_resources": ["youtube/favicon.ico"]
 }

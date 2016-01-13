@@ -2,27 +2,40 @@
   font-size: 15px;
   font-weight: bold; }
 
-.keepTubeEmbedded #body-container,
-.keepTubeEmbedded #content-container {
-  padding: 0px;
-  background: black; }
-.keepTubeEmbedded #placeholder-player {
-  margin: 0px; }
-.keepTubeEmbedded #page.watch .content-alignment {
-  min-width: 0 !important; }
-.keepTubeEmbedded .ytp-chrome-bottom, .keepTubeEmbedded video, .keepTubeEmbedded .player-width {
-  width: 100% !important;
-  left: 0 !important;
-  margin: 0 !important; }
-.keepTubeEmbedded #masthead-positioner,
-.keepTubeEmbedded #action-panel-details,
-.keepTubeEmbedded #watch7-sidebar-contents,
-.keepTubeEmbedded #footer-container,
-.keepTubeEmbedded #keep-button,
-.keepTubeEmbedded #watch-discussion,
-.keepTubeEmbedded #masthead-positioner-height-offset,
-.keepTubeEmbedded #watch7-container,
-.keepTubeEmbedded #watch-header {
-  display: none; }
+.keepTubeEmbedded {
+  background: #111111; }
+  .keepTubeEmbedded body {
+    background: #111111; }
+  .keepTubeEmbedded #page {
+    overflow: hidden; }
+  .keepTubeEmbedded #body-container, .keepTubeEmbedded #page-container, .keepTubeEmbedded #page, .keepTubeEmbedded #player, .keepTubeEmbedded #teater-background, .keepTubeEmbedded #player-mole-container, .keepTubeEmbedded #player-api {
+    height: 100%; }
+  .keepTubeEmbedded #body-container, .keepTubeEmbedded #content-container {
+    padding: 0px;
+    background: black; }
+  .keepTubeEmbedded #placeholder-player {
+    margin: 0px; }
+  .keepTubeEmbedded #page.watch .content-alignment {
+    min-width: 0 !important;
+    top: 0 !important; }
+  .keepTubeEmbedded .ytp-chrome-bottom, .keepTubeEmbedded video, .keepTubeEmbedded .player-width {
+    width: 100% !important;
+    left: 0 !important;
+    margin: 0 !important; }
+  .keepTubeEmbedded .html5-video-container, .keepTubeEmbedded .ytp-iv-video-content, .keepTubeEmbedded video {
+    height: 100% !important; }
+  .keepTubeEmbedded .player-height {
+    height: 100% !important; }
+  .keepTubeEmbedded #masthead-positioner,
+  .keepTubeEmbedded #action-panel-details,
+  .keepTubeEmbedded #watch7-sidebar-contents,
+  .keepTubeEmbedded #footer-container,
+  .keepTubeEmbedded #keep-button,
+  .keepTubeEmbedded #watch-discussion,
+  .keepTubeEmbedded #masthead-positioner-height-offset,
+  .keepTubeEmbedded #watch7-container,
+  .keepTubeEmbedded #watch-header,
+  .keepTubeEmbedded #placeholder-player {
+    display: none; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,28 +1,53 @@
 
+$dark-background: #111111;
+
 .ytp-keep-button{
 	font-size: 15px;
 	font-weight: bold;
 }
-.keepTubeEmbedded {
 
-	#body-container,
-	#content-container{
+
+.keepTubeEmbedded {
+	background: $dark-background;
+
+	body{
+		background: $dark-background;
+	}
+
+	#page{
+		//used to quickly fix unknown element overflowing on player.
+		overflow: hidden;
+	}
+
+	#body-container, #page-container, #page, #player, #teater-background, #player-mole-container, #player-api{
+		height: 100%;
+	}
+
+	#body-container, #content-container{
 		padding: 0px;
 		background: black;
 	}
+	
 
 	#placeholder-player{
 		margin: 0px;
 	}
+
 	#page.watch .content-alignment{
 		min-width: 0 !important;
+		top: 0 !important;
 	}
 
 	.ytp-chrome-bottom, video, .player-width{
 		width: 100% !important;
 		left: 0 !important;
 		margin: 0 !important;
-
+	}
+	.html5-video-container,.ytp-iv-video-content, video{
+		height: 100% !important;
+	}
+	.player-height{
+		height: 100% !important;
 	}
 
 	#masthead-positioner,
@@ -33,7 +58,8 @@
 	#watch-discussion,
 	#masthead-positioner-height-offset,
 	#watch7-container,
-	#watch-header {
+	#watch-header, 
+	#placeholder-player {
 		display: none;
 	}
 }
