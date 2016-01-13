@@ -1,6 +1,5 @@
 function loadPanel( videoUrl ){
 	console.log(videoUrl);
-	// chrome.windows.create({ url: 'http://www.youtube.com/watch?v='+videoUrl+'&strip=true', type: 'panel'});
 	chrome.windows.create({ 
 		url: 'http://www.youtube.com/watch?v='+videoUrl+'&strip=true', 
 		height: 230, 
