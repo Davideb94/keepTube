@@ -9,7 +9,8 @@ $(".ytp-keep-button").on('click', function(){
 	if($("#movie_player").hasClass("playing-mode")){
 		$(".ytp-play-button").click();
 	}
-	chrome.extension.sendRequest({ url: document.URL.split("&")[0].split("=")[1] });
+	// chrome.extension.sendRequest({ url: document.URL.split("&")[0].split("=")[1] });
+	chrome.runtime.sendMessage({ url: document.URL.split("&")[0].split("=")[1] });
 });
 
 if( url.indexOf('strip=true')!=-1 ){

@@ -4,11 +4,18 @@ function loadPanel( videoUrl ){
 		url: 'http://www.youtube.com/watch?v='+videoUrl+'&strip=true', 
 		height: 230, 
 		width: 330,
-		type: "panel"
+		left: 950,
+		top:570
 	});
 }	
-chrome.extension.onRequest.addListener(
-    function(request, sender, sendResponse){
+// chrome.extension.onRequest.addListener(
+//     function(request, sender, sendResponse){
+//         loadPanel(request.url);
+//     }
+// );
+
+chrome.runtime.onMessage.addListener(
+	function(request, sender, sendResponse){
         loadPanel(request.url);
     }
 );
