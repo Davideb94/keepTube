@@ -5,7 +5,8 @@ function loadPanel( videoUrl ){
 		height: 230, 
 		width: 330,
 		left: 950,
-		top:570
+		top:570,
+		type:"panel"
 	});
 }	
 // chrome.extension.onRequest.addListener(
