@@ -36,10 +36,5 @@
   "background": {
     "scripts": ["main.js"]
   },
-  "web_accessible_resources": ["youtube/favicon.ico"],
-  "applications": {
-    "gecko": {
-      "id": "porcoddio@mozilla.org"
-    }
-  }
+  "web_accessible_resources": ["youtube/favicon.ico"]
 }

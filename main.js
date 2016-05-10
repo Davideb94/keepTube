@@ -1,12 +1,13 @@
 function loadPanel( videoUrl ){
-	console.log(videoUrl);
+	console.log('https://www.youtube.com/tv/watch?v='+videoUrl);
+	console.dir(screen);
 	chrome.windows.create({ 
-		url: 'http://www.youtube.com/watch?v='+videoUrl+'&strip=true', 
-		height: 230, 
-		width: 330,
-		left: 950,
-		top:570,
-		type:"panel"
+		url: 'https://www.youtube.com/tv#/watch?v='+videoUrl, 
+		height: 330, 
+		width: 430,
+		// left: screen.width-430,
+		// top: screen.height-330,
+		type: "panel"
 	});
 }	
 // chrome.extension.onRequest.addListener(
